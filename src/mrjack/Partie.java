@@ -36,7 +36,7 @@ public class Partie {
         PersonnagePlateau coupable = carteAlibisRestantes.get(0);
         carteAlibisRestantes.remove(0);
         mrJack.setCoupable(coupable);
-        int sablier = coupable.getSablier() +4 ;
+        int sablier = coupable.getSablier() ;
         mrJack.setNbSabliers(sablier);
     }
 
